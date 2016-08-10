@@ -3,11 +3,13 @@
  <head>
    <meta charset="utf-8">
    <title>Nerds</title>
+   <link rel="stylesheet" href="css/style.css" type="text/css">
  </head>
 
-  <header class="main-container">
+<body>
+  <header class="main-header">
     <div class="container">
-      <div class="header-top">
+      <div class="header-top clearfix">
         <div class="logo">
           <img src="img/logo.png" width="150px" height="90px" alt="Nerds" />
         </div>
@@ -23,7 +25,7 @@
           </div>
         </nav>
       </div>
-      <div class="slider">
+      <div class="slider clearfix">
         <div class="slider-left">
           <h2>Долго, дорого, скрупулезно</h2>
           <p>
@@ -38,9 +40,8 @@
     </div>
   </header>
 
-  <body>
-    <main="container">
-      <section class="order">
+    <main class="container">
+      <section class="order clearfix">
         <div class="order-element">
           <img src="img/1.jpg" width="210px" height="120px" alt="Веб-сайты" />
           <h2>Веб-сайты</h2>
@@ -66,7 +67,7 @@
           <a class="btn btn-order-red" href="#">Заказать</a>
         </div>
       </section>
-      <section class="about-us">
+      <section class="about-us clearfix">
         <div class="about-us-left">
           <h3>Мы - маленькая, но гордая<br> дизайн студия из Краснодара.</h3>
           <p>
@@ -93,12 +94,12 @@
         </div>
       </section>
       <div class="partners-logo">
-        <img src="img/glukhanko.jpg" width="120px" height="80px" alt="Glukhanko" />
-        <img src="img/htmlacademy.jpg" width="120px" height="80px" alt="HTML Academy" />
-        <img src="img/borodinski.jpg" width="120px" height="80px" alt="Borodinski" />
+        <img class="partners-logo-img" src="img/glukhanko.jpg" width="120px" height="80px" alt="Glukhanko" />
+        <img class="partners-logo-img" src="img/htmlacademy.jpg" width="120px" height="80px" alt="HTML Academy" />
+        <img class="partners-logo-img" src="img/borodinski.jpg" width="120px" height="80px" alt="Borodinski" />
       </div>
       <section class="contacts">
-        <div class="map">
+        <div class="container clearfix">
           <div class="contacts-left">
             <div class="contacts-box">
               <h5>Nerds Design Studio</h5>
@@ -113,14 +114,12 @@
           </div>
           <div class="contacts-right">
             <img class="contacts-logo" src="img/logo.png" alt="Nerds" />
-            <img class="contacts-disc" src="ing/disc.png" alt="" />
           </div>
         </div>
       </section>
     </main>
 
-    <footer class="main-footer">
-      <div class="container">
+    <footer class="main-footer container clearfix">
         <div class="social">
           <a class="social-btn social-btn-vk" href="">Вконтакте</a>
           <a class="social-btn social-btn-fb" href="">Фейсбук</a>
@@ -132,7 +131,6 @@
             Скидка 10% для друзей из социальных сетей.
           </p>
         </div>
-      </div>
     </footer>
 
   </body>
