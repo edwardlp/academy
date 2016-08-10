@@ -1,0 +1,95 @@
+html, body {
+  min-width: 1122px;
+  min-height: 1750px;
+  margin: 0;
+  padding: 0;
+}
+/*
+body {
+  background: #000 url("../img/bg.jpg") no-repeat 50% 3px;
+  background-size: 1200px auto;
+} */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.main-header {
+  margin-bottom: 60px;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.main-navigation {
+  width: 780px;
+  float: left;
+}
+
+.user-block {
+  width: 140px;
+  float: right;
+}
+
+.index-logo {
+  width: 368px;
+  height: 204px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+
+.features {
+  width: 920px;
+  margin: 0 auto;
+}
+
+.features-item {
+  float: left;
+  width: 290px;
+  margin-right: 20px;
+  min-height: 180px;
+}
+
+.features-item:last-child {
+  margin-right: 0px;
+}
+
+.index-content {
+  padding: 50px 80px;
+  margin-bottom: 35px;
+}
+
+.index-content-left {
+  float: left;
+  width: 380px;
+}
+
+.index-content-right {
+  float: right;
+  width: 300px;
+}
+
+.main-footer {
+ margin-top: 64px;
+ padding: 60px 0 39px;
+}
+
+.footer-contacts {
+  float: left;
+  width: 310px;
+  margin-right: 70px;
+}
+
+.footer-social {
+  float: left;
+  width: 180px;
+}
+
+.footer-copyright {
+  float: right;
+  width: 140px;
+}
