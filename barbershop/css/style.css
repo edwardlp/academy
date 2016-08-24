@@ -1,5 +1,9 @@
-html, body {
-  min-width: 1122px;
+body {
+  min-width: 960px;
+  font-weight: 700;
+  line-height: 24px;
+  font-family: "PT Sans Narow", "Arial", sans-serif;
+  text-transform: uppercase;
   min-height: 1750px;
   margin: 0;
   padding: 0;
