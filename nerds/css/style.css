@@ -1,8 +1,11 @@
-html, body {
-  min-width: 1200px;
-  min-height: 1750px;
+body {
+  min-width: 900px;
   margin: 0;
   padding: 0;
+  background-color: #ffffff;
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 .clearfix::after {
@@ -12,7 +15,9 @@ html, body {
 }
 
 .main-header {
+  padding-top: 25px;
   margin-bottom: 80px;
+  background-color: #eeeeee;
 }
 
 .container {
@@ -22,7 +27,8 @@ html, body {
 }
 
 .header-top {
-  margin: 25px 0;
+  padding: 0;
+  margin: 0;
 }
 
 .logo {
@@ -31,19 +37,106 @@ html, body {
   margin-right: 170px;
 }
 
+.logo:hover {
+  transform: rotate(8deg);
+  transition: 0.5s;
+}
+
 .nav-menu {
-  width: 470px;
+  width: 560px;
   float: left;
+  position: relative;
+}
+
+.nav-menu ul {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.nav-menu li {
+  display: inline-block;
+  font-size: 14px;
+  margin-right: 40px;
+  vertical-align: top;
+  padding: 30px 0;
+}
+
+.nav-menu li:last-child {
+  margin-right: 0;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000000;
+  line-height: 30px;
 }
 
 .shoping-basket {
-  width: 100px;
+  max-width: 100px;
   float: right;
+}
+
+.shoping-basket::before {
+  position: absolute;
+  content: "";
+  width: 15px;
+  height: 15px;
+  background-image: url(../img/icon-basket.png);
+  opacity: 0.3;
+  top: 37px;
+}
+
+.shoping-basket:hover::before {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.shoping-basket-link {
+  display: inline-block;
+  vertical-align: top;
+  padding: 30px;
+}
+
+.slider {
+  padding: 20px 0 50px 0;
 }
 
 .slider-left {
   width: 380px;
   float: left;
+}
+
+.slider-left h2 {
+  margin: 15px 0 30px 0;
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 400;
+}
+
+.slider-left p {
+  padding: 0;
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+.btn {
+  background: #fb565a;
+  padding: 14px 37px;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 18px;
+  color: #ffffff;
+  font-family: 'Roboto', 'Arial', sans-serif;
+  border-radius: 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.btn-slider {
+  padding: 14px 70px;
 }
 
 .slider-right {
